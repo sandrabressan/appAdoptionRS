@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Adoção Animais Rio Grande do Sul</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="btn_registrar">Registrar</string>
+    <string name="edit_email_acesso">E-mail</string>
+    <string name="edit_senha_acesso">Senha</string>
+    <string name="adote_um_animal_do_rio_grande_do_sul">Adote um animal do Rio Grande do Sul</string>
+    <string name="adotar">Adotar</string>
+    <string name="voltar">Voltar</string>
+    <string name="local">Local</string>
+    <string name="name">Name</string>
+    <string name="bandeira_rs"/>
+    <string name="e_mail">E-mail</string>
+    <string name="confirmar_e_mail">Confirmar E-mail</string>
+    <string name="confirmar_senha">Confirmar Senha</string>
+    <string name="senha">Senha</string>
+    <string name="voltar_login">Voltar</string>
+    <string name="salvar">Salvar</string>
+    <string name="desc">Desc</string>
+</resources>

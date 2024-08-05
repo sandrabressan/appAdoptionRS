@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controller.DetailActivity">
+
+    <TextView
+        android:id="@+id/detailLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="@string/local"
+        android:textStyle="bold"
+        android:textColor="@color/verde_escuro"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/detailName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/name"
+        android:textStyle="bold"
+        android:textColor="@color/verde_escuro"
+        android:textSize="22sp"/>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:id="@+id/detailImage"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:src="@drawable/lilica"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription"/>
+
+    <TextView
+        android:id="@+id/detailDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:padding="20dp"
+        android:text="@string/desc"
+        android:textAlignment="center"
+        android:lineSpacingExtra="8dp"
+        android:textColor="@color/verde_escuro"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <Button
+            android:id="@+id/btnVoltarHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="50"
+            android:backgroundTint="@color/verde_escuro"
+            android:text="@string/voltar"
+            tools:ignore="ButtonStyle,TextContrastCheck,VisualLintButtonSize"/>
+
+        <Button
+            android:id="@+id/btnAdotar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="50"
+            android:backgroundTint="@color/verde_escuro"
+            android:text="@string/adotar"
+            tools:ignore="ButtonStyle,TextContrastCheck,VisualLintButtonSize"/>
+
+    </LinearLayout>
+</LinearLayout>
